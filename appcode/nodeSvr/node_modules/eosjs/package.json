@@ -1,0 +1,150 @@
+{
+  "_args": [
+    [
+      "eosjs",
+      "/home/ubuntu/test/eosjs"
+    ]
+  ],
+  "_from": "eosjs@latest",
+  "_id": "eosjs@16.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/eosjs",
+  "_nodeVersion": "10.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/eosjs_16.0.0_1532381312235_0.5427834610271776"
+  },
+  "_npmUser": {
+    "email": "slim2k@protonmail.com",
+    "name": "jamesc"
+  },
+  "_npmVersion": "6.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "eosjs",
+    "raw": "eosjs",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/eosjs/-/eosjs-16.0.0.tgz",
+  "_shasum": "d88fd6bd8408882bd0d8a4bc5abe22827a8c9ecb",
+  "_shrinkwrap": null,
+  "_spec": "eosjs",
+  "_where": "/home/ubuntu/test/eosjs",
+  "author": "",
+  "babel": {
+    "plugins": [
+      "syntax-async-functions",
+      "transform-regenerator",
+      [
+        "transform-runtime",
+        {
+          "polyfill": false,
+          "regenerator": true
+        }
+      ]
+    ],
+    "presets": [
+      "es2015"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/EOSIO/eosjs/issues"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "binaryen": "^37.0.0",
+    "create-hash": "^1.1.3",
+    "eosjs-api": "7.0.0",
+    "eosjs-ecc": "4.0.2",
+    "fcbuffer": "2.2.0"
+  },
+  "description": "General purpose library for the EOS blockchain.",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browserify": "^14.4.0",
+    "camel-case": "^3.0.0",
+    "coveralls": "^3.0.0",
+    "eosjs-keygen": "^1.3.2",
+    "jsdoc-to-markdown": "^3.0.4",
+    "mocha": "^5.2.0",
+    "nyc": "^11.4.1",
+    "uglify-js": "^3.4.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 22,
+    "integrity": "sha512-R/vjpjbDkKcDZEc9gWEKwI5qI1Hs6ibR0T7Swn4nI0PS+KnbKt+OuqIsU/PK0Y4N3RB+QBclDSbrCDKCzLOfCA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVkiACRA9TVsSAnZWagAAWpwP/1dUjCDBI+qM00FUjlJP\nIKS6TcBtnqS0lVYu26flmAdg06TqvgPaRGZ583vA1Cg2TLc8rywpkvaXfIJz\nsN3A3tdx4cGZyUGb2ry0PKAI+1xFyllcuhZjcMRRAe48lKQtrduRO7ksNL1a\nx4heud4MS8rb0Vr2K8xQYje2qUAW5hE1yEJnbOzC1CdjkRHWoKoxF+/oll+3\n5mtG1N4NCFel/gF1sfn1h+yv6aHw0TgA3I154BjQcrup9bOtz9YuHOI5p76g\nTkAzoiN32mH3/OXoP8jOYrbh/V3q7CVEEjumJlcXrB7UV32Q+GIJGiVNc8vl\nbHJrMWtLPJzOJcxLoiiqL2QTajV3V2D70ZZmv1r4Jq/RTchgVThE6Y9P5292\ny/h4vt4+KLwU1YjpSwhHYsyVi9B0osuL5ZvcMR1uNZNgSIcI0GtcK+w5Ju/Q\nJOxH3xKiqhyP8TG0qoM/7mxusiVK31dixDYRaSB7IgwWgbR49KvsFHtrvhgN\n2XZ85MdLHFp7jnVGd9nFBaFVXH1skicBNKHNQersQZSHham96ShLiwkJdOps\nJeuMTdBDqhaxOLoo7U51V7NmnyhhyY7sPrjLNn9Upw+2THyQ0uRpaqnuRRsQ\n8Sfq3Slx2cxcqhNWxk2/aGbjybTtHXjEGkkhwEK5PdYWnZa2jT1CuRnkes58\ncaZ4\r\n=JNcQ\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "d88fd6bd8408882bd0d8a4bc5abe22827a8c9ecb",
+    "tarball": "https://registry.npmjs.org/eosjs/-/eosjs-16.0.0.tgz",
+    "unpackedSize": 2125249
+  },
+  "files": [
+    "README.md",
+    "docs",
+    "lib"
+  ],
+  "gitHead": "31e0e133310b98a627fcb0c4df3b182460de36d6",
+  "homepage": "https://github.com/EOSIO/eosjs#readme",
+  "keywords": [
+    "Blockchain",
+    "EOS"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "chris-allnutt",
+      "email": "chris.allnutt@block.one"
+    },
+    {
+      "name": "jamesc",
+      "email": "slim2k@protonmail.com"
+    },
+    {
+      "name": "jeffreyssmith2nd",
+      "email": "jeffreyssmith2nd@gmail.com"
+    },
+    {
+      "name": "julienheller",
+      "email": "julien.heller@block.one"
+    },
+    {
+      "name": "smetelin",
+      "email": "serg.metelin@gmail.com"
+    }
+  ],
+  "name": "eosjs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EOSIO/eosjs.git"
+  },
+  "scripts": {
+    "build": "babel --copy-files src --out-dir lib",
+    "build_browser": "npm run build && browserify -o lib/eos.js -s Eos lib/index.js",
+    "build_browser_test": "npm run build && browserify -o dist/test.js lib/*.test.js",
+    "coverage": "nyc --reporter=html npm test",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "docs": "jsdoc2md src/format.js > docs/index.md",
+    "minimize": "uglifyjs lib/eos.js -o lib/eos.min.js --source-map --compress --mangle",
+    "prepublishOnly": "npm run build_browser && npm run test_lib && npm run minimize && npm run docs && npm run srisum",
+    "srisum": "npx srisum lib/eos.*",
+    "test": "mocha --exit --use_strict src/*.test.js",
+    "test_lib": "mocha --exit --use_strict lib/*.test.js"
+  },
+  "version": "16.0.0"
+}

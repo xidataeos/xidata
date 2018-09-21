@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      "eosjs-api",
+      "/home/ubuntu/test/eosjs"
+    ]
+  ],
+  "_from": "eosjs-api@latest",
+  "_id": "eosjs-api@7.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/eosjs-api",
+  "_nodeVersion": "10.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/eosjs-api_7.0.0_1532379724910_0.329548641775798"
+  },
+  "_npmUser": {
+    "email": "slim2k@protonmail.com",
+    "name": "jamesc"
+  },
+  "_npmVersion": "6.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "eosjs-api",
+    "raw": "eosjs-api",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/eosjs"
+  ],
+  "_resolved": "https://registry.npmjs.org/eosjs-api/-/eosjs-api-7.0.0.tgz",
+  "_shasum": "4cfc4fef7f25e2c77f8d137bb7b9c75505a272f4",
+  "_shrinkwrap": null,
+  "_spec": "eosjs-api",
+  "_where": "/home/ubuntu/test/eosjs",
+  "author": "",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/EOSIO/eosjs-api/issues"
+  },
+  "dependencies": {
+    "camel-case": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "description": "Application programming interface to EOS blockchain nodes.",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "browserify": "^16.2.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "jsdoc-to-markdown": "^4.0.1",
+    "mocha": "^5.2.0",
+    "uglify-js": "^3.4.5"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 18,
+    "integrity": "sha512-DpRtlWkSd6vzQd4CgJXGbvcbpCvnRmQnYqLdX21c2oJ2SHtSDQiz0TrpCiY7h5I8wZ4TBHj48QKNGs7ROA9qHw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVkJMCRA9TVsSAnZWagAAa5AP/1DobFzSbof+xB894LG4\nKaxWL1Y7+hxLMmAOUs+Jea3xqG9wdNajirZYweiQxVTY11SVj+7MNoGiGJLf\nVezeQeDo7gVrlTiJRXSjG0QE3h7CAReF8aiDm8c2C7cHRueAWzrGJjADyjUs\ntdW2iybSe75F2jbIMpJYdvrs60sal15rVR0Xc5fZMUD/NCRsOPVQT+xx6Jc+\n9BqER6woB6HMztxn4llHCf53El0BqEADroSnOVYo2Tkj7d+zndktsnLHBo4C\naTtFk42CDGlxmtt8dYHzRee0mNnafsmqyTYhfPewlCQElbyKT1vFNpNHUARp\nRvHX3Yp9qo/ZwXjs68NJg17zLC2pQFnsTlgyTn1ZDiz6i4EXr+Kz8iocSeB/\nw7flO/pBUUHu3Bw5OxcOzujUU4/eZU8uZcokcUGWPiWuYvSz2bEL1f4w8v7Z\n7yidgCdeAd9n1HO8Ge/NZ+f4bBxwkVdoRqrGrRIfI4GV8yiNkiW8bJFCPuN+\ngnYNg/Iy3grHubrB5dgP+P34n9dBpB2mZUpkHgT6/9ZJYeQVTKzJmcyjsWml\n7Lt3rNCaN5sAoBLEyturheMuhW3Mp/kRRUVQvW2DBJXuNCmDuQBIpChpaQ0G\ngPk+9tLiqX4KDUn+69fwxl+jh4zZZKp7O5V2mRoab5I4fffSFKHFpTgqFEE5\nfHZe\r\n=eYJ8\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "4cfc4fef7f25e2c77f8d137bb7b9c75505a272f4",
+    "tarball": "https://registry.npmjs.org/eosjs-api/-/eosjs-api-7.0.0.tgz",
+    "unpackedSize": 172780
+  },
+  "files": [
+    "README.md",
+    "docs",
+    "lib"
+  ],
+  "gitHead": "0a9c31649b15d61edb2e99f44f0e353c0c1e02ac",
+  "homepage": "https://github.com/EOSIO/eosjs-api#readme",
+  "keywords": [
+    "API",
+    "Blockchain",
+    "EOS"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "jamesc",
+      "email": "jslim180@gmail.com"
+    },
+    {
+      "name": "smetelin",
+      "email": "serg.metelin@gmail.com"
+    }
+  ],
+  "name": "eosjs-api",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EOSIO/eosjs-api.git"
+  },
+  "scripts": {
+    "build": "rm -fr lib/* && babel --copy-files src --out-dir lib",
+    "build_browser": "npm run build && mkdir -p lib && browserify -o lib/eos-api.js -s EosApi lib/index.js",
+    "build_browser_test": "npm run build && browserify -o dist/test.js lib/*.test.js",
+    "coverage": "istanbul cover _mocha -- -R spec src/**/*.test.js",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "docs": "jsdoc2md src/exported-helpers.js src/process-args.js > docs/index.md",
+    "minimize": "uglifyjs lib/eos-api.js -o lib/eos-api.min.js --source-map --compress --mangle",
+    "prepublishOnly": "npm run build_browser && npm run test_lib && npm run minimize && npm run docs && npm run srisum",
+    "srisum": "npx srisum lib/eos-api.*",
+    "test": "mocha --use_strict src/**/*.test.js",
+    "test_lib": "mocha --use_strict lib/*.test.js"
+  },
+  "version": "7.0.0"
+}
