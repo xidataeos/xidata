@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>暿数版权</title>
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script language="JavaScript" src="js/jquery.js"></script>
+	</head>
+	<style>
+		.contact_us {
+			overflow: visible;
+			max-width: 1200px;
+		}
+	</style>
+
+	<body>
+		<input id="page_name" type="hidden" value="write.html" />
+		<div id="container">
+			<div id="left"></div>
+			<div id="right">
+				<nav></nav>
+				<div class="content">
+					<div class="contact_us">
+						<!-- 加载编辑器的容器 -->
+						<script id="cont" name="cont" type="text/plain">这里写你的初始化内容</script>
+						<!-- 配置文件 -->
+						<script type="text/javascript" src="ueditor_jsp/ueditor.config.js"></script>
+						<!-- 编辑器源码文件 -->
+						<script type="text/javascript" src="ueditor_jsp/ueditor.all.js"></script>
+						<script type="text/javascript" src="ueditor_jsp/lang/zh-cn/zh-cn.js"></script>
+						<!-- 实例化编辑器 -->
+						<script type="text/javascript">
+							var ue = UE.getEditor('cont');
+						</script>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<script src="js/frame.js"></script>
+	</body>
+
+</html>

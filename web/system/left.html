@@ -1,0 +1,161 @@
+﻿<html>
+
+	<body>
+		<dl class="leftmenu">
+			<div class="logo_area">
+				<img src="images/loginlogo.png" alt="" />
+			</div>
+			<dd>
+				<div class="title">
+					<span><img src="images/leftico01.png" /></span>首页
+				</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="index.html" target="_self" data-a="index.html">首页</a>
+					</li>
+				</ul>
+			</dd>
+
+			<dd>
+				<div class="title">
+					<span><img src="images/leftico02.png" /></span>原创保护
+				</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="write.html" target="_self" data-a="write.html">编辑</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="yc_apply.html" target="_self" data-a="yc_apply.html">原创保护申请</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="wx_quequab.html" target="_self" data-a="wx_quequab.html">微信公众号文章确权</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="yc_history.html" target="_self" data-a="yc_history.html">原创保护历史</a>
+					</li>
+				</ul>
+			</dd>
+
+			<dd>
+				<div class="title"><span><img src="images/leftico03.png" /></span>版权登记</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="bq_apply1.html" target="_self" data-a="bq_apply1.html">版权登记申请</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="bq_history.html" target="_self" data-a="bq_history.html">版权登记历史</a>
+					</li>
+				</ul>
+			</dd>
+			
+			
+			<!--<dd>
+				<div class="title"><span><img src="images/leftico01.png" /></span>侵权监控</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="">侵权监控</a>
+					</li>
+				</ul>
+			</dd>
+			
+			<dd>
+				<div class="title"><span><img src="images/leftico02.png" /></span>侵权取证</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="">侵权取证</a>
+					</li>
+				</ul>
+			</dd>
+			
+			<dd>
+				<div class="title"><span><img src="images/leftico04.png" /></span>维权记录</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="">出证订单</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="">律师在线</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="">侵权告知函</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="">代理维权</a>
+					</li>
+				</ul>
+				
+			</dd>-->
+			
+			<dd>
+				<div class="title"><span><img src="images/leftico03.png" /></span>账户管理</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="account.html" target="_self" data-a="account.html">账户管理</a>
+					</li>
+				</ul>
+			</dd>
+
+			<dd>
+				<div class="title"><span><img src="images/leftico04.png" /></span>平台对接</div>
+				<ul class="menuson">
+					<li>
+						<cite></cite>
+						<a href="contactUs.html" target="_self" data-a="contactUs.html">联系我们</a>
+					</li>
+					<li>
+						<cite></cite>
+						<a href="feedback.html" target="_self" data-a="feedback.html">服务反馈</a>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+
+			//
+			var nowPage = $("#page_name").val();
+			var tabli = $('.menuson a');
+			$.each(tabli, function(i, v) {
+				if($(v).attr('data-a') == nowPage) {
+					$(v).parent("li").addClass("active");
+				}
+			});
+
+			// 
+			$(".active").parent('.menuson').css({
+				"display": "block"
+			});
+			//导航切换
+			$(".menuson li").click(function() {
+				$(".menuson li.active").removeClass("active")
+				$(this).addClass("active");
+			});
+
+			$('.title').click(function() {
+				var $ul = $(this).next('ul');
+				$('dd').find('ul').slideUp();
+				if($ul.is(':visible')) {
+					$(this).next('ul').slideUp();
+				} else {
+					$(this).next('ul').slideDown();
+				}
+			});
+		})
+	</script>
+
+</html>

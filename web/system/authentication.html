@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>暿数版权</title>
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script language="JavaScript" src="js/jquery.js"></script>
+	</head>
+
+	<body>
+		<input id="page_name" type="hidden" value="authentication.html" />
+		<div id="container">
+			<div id="left"></div>
+			<div id="right">
+				<nav></nav>
+				<div class="content">
+					
+					<div class="contact_us production_about">
+						<div class="production_about_title">
+							<img src="images/leftico01.png" alt="" />实名认证
+						</div>
+						
+						
+						<div class="bq_apply_content">
+							<div class="bq_apply_option bq_apply_gr">
+								<p>个人申请</p>
+							</div>
+							
+							<div class="bq_apply_option bq_apply_qy">
+								<p>企业申请</p>
+							</div>
+						</div>
+						
+						
+						<form class="bq_apply_gr_form" style="display: none;">
+							<div class="bq_apply_gr_div">
+								<div class="apply_row">
+									<span>真实姓名</span>
+									<input type="text" placeholder="请输入真实姓名"/>
+								</div>
+								<div class="apply_row">
+									<span>身份证号码</span>
+									<input type="text" placeholder="请输入身份证号码"/>
+								</div>
+								<div class="apply_row">
+									<span style="vertical-align: top;">身份证正反面</span>
+									<div class="file_background">
+										<input type="file" class="file-upload" />
+										<img src="images/icon_add_user_index.png" class="file-upload-add-icon">
+										<span class="file-upload-type-title">上传身份证头像面</span>
+									</div>
+									<div class="file_background" style="margin-left: 54px;">
+										<input type="file" class="file-upload" />
+										<img src="images/icon_add_user_index.png" class="file-upload-add-icon">
+										<span class="file-upload-type-title">上传身份证国徽面</span>
+									</div>
+								</div>
+								<div class="apply_row">
+									<span> </span>
+									<p>身份证明上传说明：<br />
+									1. 请上传本人身份证正反面照片<br />
+									2. 照片中本人形象需为免冠且并未化妆，五官清晰<br />
+									3. 拍照时对焦点请置于身份证上，保证身份证信息清晰且未遮挡<br />
+									4. 上传文件格式支持png，jpg和jpeg<br />
+									5. 文件大小不超过3MB<br />
+									6. 所有上传信息均会被暿数妥善保管，不会用于其他商业用途或传输给其他第三方
+									</p>
+								</div>
+							</div>
+							<div class="option_div">
+								<input type="button" name="" id="" class="put_in" value="提交">
+								<input type="button" name="" id="" class="cancel return_btn" value="返回选择">
+							</div>
+						</form>
+						
+						
+						<form class="bq_apply_qy_form" style="display: none;">
+							<div class="bq_apply_qy_div">
+								<div class="apply_row">
+									<span>企业名称</span>
+									<input type="text" placeholder="企业名称，和营业执照的企业名称保持一致"/>
+								</div>
+								<div class="apply_row">
+									<span>证件类型</span>
+									<label for="type_id_1">
+										<input type="radio" name="type_id" id="type_id_1" value=""/>社会信用代码认证
+									</label>
+									<label for="type_id_2">
+										<input type="radio" name="type_id" id="type_id_2" value=""/>营业执照号认证
+									</label>
+								</div>
+								<div class="apply_row">
+									<span> </span>
+									<label for="type_id_3">
+										<input type="radio" name="type_id" id="type_id_3" value=""/>非盈利组织认证
+									</label>
+									<label for="type_id_4">
+										<input type="radio" name="type_id" id="type_id_4" value=""/>三证合一认证
+									</label>
+								</div>
+								<div class="apply_row">
+									<span>证件代码</span>
+									<input type="text" placeholder="请输入证件号码"/>
+								</div>
+								<div class="apply_row">
+									<span style="vertical-align: top;">证件扫描件</span>
+									<div class="file_background">
+										<input type="file" class="file-upload" />
+										<img src="images/icon_add_user_index.png" class="file-upload-add-icon">
+										<span class="file-upload-type-title">上传营业执照正面</span>
+									</div>
+								</div>
+								<div class="apply_row">
+									<span> </span>
+									<p>证件扫描上传说明：<br />
+									1. 请上传该企业证件照片<br />
+									2.  拍照时对焦点请置证件上，保证证件信息清晰且未遮挡<br />
+									3. 拍照时对焦点请置于身份证上，保证身份证信息清晰且未遮挡<br />
+									4. 上传文件格式支持png，jpg和jpeg<br />
+									5. 文件大小不超过5MB<br />
+									6. 所有上传信息均会被暿数妥善保管，不会用于其他商业用途或传输给其他第三方
+									</p>
+								</div>
+							</div>
+							<div class="option_div">
+								<input type="button" name="" id="" class="put_in" value="提交">
+								<input type="button" name="" id="" class="cancel return_btn" value="返回选择">
+							</div>
+						</form>
+						
+						
+						
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<script src="js/frame.js"></script>
+		<script>
+			$(function(){
+				$(".bq_apply_option.bq_apply_gr").click(function(){
+					$(".bq_apply_content").hide();
+					$('.bq_apply_gr_form').show();
+				})
+				
+				$(".bq_apply_option.bq_apply_qy").click(function(){
+					$(".bq_apply_content").hide();
+					$('.bq_apply_qy_form').show();
+				})
+				
+				$('.return_btn').click(function(){
+					$(".bq_apply_content").show();
+					$(".bq_apply_gr_form").hide();
+					$(".bq_apply_qy_form").hide();
+				})
+			})
+		</script>
+	</body>
+
+</html>

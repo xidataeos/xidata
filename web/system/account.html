@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>暿数版权</title>
+		<link rel="shortcut icon" href="title_logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script language="JavaScript" src="js/jquery.js"></script>
+		<script language="JavaScript" src="js/function.js"></script>
+	</head>
+
+	<body>
+		<input id="page_name" type="hidden" value="account.html" />
+		<div id="container">
+			<div id="left"></div>
+			<div id="right">
+				<nav></nav>
+				<div class="content">
+					<div class="contact_us account">
+						<div class="personal_information_contact"><img src="https://ziggurat.cn/customer/images/docking_platform_img.png" alt="" class="personal_information_contact_img">
+							<p class="personal_information_contact_font">个人信息</p>
+						</div>
+
+						<div class="personal_information">
+							<div class="person_photo">
+								<img src="images/i07.png" alt="" />
+							</div>
+							<div class="person_name">
+								<span>xxxxxxxxxxxxxxxxxxx</span>
+								<input type="text" style="display:none"/>
+								<span class="red">修改</span>
+							</div>
+							<div class="person_about">
+								<div>
+									<span>认证情况：</span>
+									<span>未认证</span>
+									<span style="margin-left: 20px;"><a href="bq_apply.html" class="red">去认证</a></span>
+								</div>
+								<div>
+									<span>绑定手机：</span>
+									<span>18812345678</span>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="contact_us account">
+						<div class="personal_information_contact"><img src="https://ziggurat.cn/customer/images/docking_platform_img.png" alt="" class="personal_information_contact_img">
+							<p class="personal_information_contact_font">地址管理</p>
+						</div>
+
+						<table class="protection_table">
+							<thead>
+								<tr>
+									<th>姓名</th>
+									<th>地址</th>
+									<th>联系电话</th>
+									<th>是否默认</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>李先生</td>
+									<td>浙江省 杭州市 余杭区 文一西路恒生科技园</td>
+									<td>18701169520</td>
+									<td>默认</td>
+									<td>删除</td>
+								</tr>
+								<tr class="add_more">
+									<td colspan="5">
+										<a class="add_address">
+											<img src="images/icon_add_user_index.png" alt="">
+											<p style="margin-top: 10px;">点击添加收件地址</p>
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+					
+					<div class="popup address_window">
+						<div class="popup-head">
+							<p class="popup-head-title">新增地址</p>
+							<img class="popup-head-close" src="images/cha.png" alt=""/>
+						</div>
+						<div class="popup-content">
+							<div class="popup_row_div">
+								<span class="popup_row_div_name">收件人</span>
+								<input type="text" placeholder="收件人姓名"/>
+							</div>
+							<div class="popup_row_div">
+								<span class="popup_row_div_name">联系电话</span>
+								<input type="text" placeholder="联系电话"/>
+							</div>
+							<div class="popup_row_div">
+								<span class="popup_row_div_name">所在地区</span>
+								<select name="">
+									<option value="">请选择省份</option>
+								</select>
+								<select name="">
+									<option value="">请选择城市</option>
+								</select>
+								<select name="">
+									<option value="">请选择区域</option>
+								</select>
+							</div>
+							<div class="popup_row_div">
+								<span class="popup_row_div_name" style="vertical-align: top;">详细地址</span>
+								<textarea name="" rows="" cols=""></textarea>
+							</div>
+							<div class="popup_row_div">
+								<span class="popup_row_div_name"></span>
+								<label for="default_add">
+									<input type="checkbox" name="" id="default_add" value="" />设为默认地址
+								</label>
+							</div>
+							<div class="popup_option_div">
+								<input type="button" name="" id="" class="put_in" value="提交" />
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<script src="js/frame.js"></script>
+		<script>
+			$(".add_address").click(function(){
+				popPosition($(".popup"));
+			})
+		</script>
+	</body>
+
+</html>

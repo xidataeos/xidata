@@ -1,0 +1,161 @@
+.container .fixed-header{
+	line-height: 80px;
+}
+.header-bottom{
+	padding: 0;
+}
+#home .logo_header{
+	height: 100px;
+}
+
+/*原创登记*/
+#banner_logoin{
+    position: absolute;
+    left: 10%;
+    top: 85%;
+    z-index: 9;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+}
+#banner_logoin a{
+	color: #31c59d;
+	text-decoration: none;
+}
+/*已登记版权数*/
+.copyright_number{
+    margin: 20px auto;
+    display: flex;
+    display: -webkit-flex;
+    background: rgba(255,255,255,0.85);
+}
+.copyright_number_li {
+	text-align: center;
+    position: relative;
+    width: 25%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+li.copyright_number_li:after {
+    content: '';
+    width: 0;
+    opacity: .5;
+    border: 1px solid #666;
+    height: 90px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -45px;
+}
+li.copyright_number_li:nth-child(4):after{
+	border:none
+}
+.numeral{
+	font-family: PingFangSC-Light;
+    font-size: 3em;
+    color: #000;
+    letter-spacing: 0;
+    line-height: 2em;
+    transform: scale(.88);
+    -ms-transform: scale(.88);
+    -moz-transform: scale(.88);
+    -o-transform: scale(.88);
+    -webkit-transform: scale(.88);
+}
+.copyright_number_img{
+	margin-top: 25px;
+}
+.bottom-top {
+    padding: 6em 0;
+}
+/*我们的优势*/
+.view{
+	width: auto;
+    border-radius: 50px;
+    margin-left: 2em;
+}
+.view .mask{
+	width: auto;
+	left: 0;
+}
+.view-fifth .mask {
+    background-color: rgba(3, 9, 16, 0.85);
+}    
+/*操作流程*/
+#testimonials h4.tittle{
+	margin-bottom: 20px;
+}
+.test-review p{
+	font-size: 1.2em;
+}
+/*关于我们*/
+#about{
+	background-image: url(../images/hengsheng.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.ab-text p{
+	color: #000;
+}
+/*合作伙伴*/
+
+.baner-top a{
+	margin-bottom: 20px;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    background: #272b2e;
+}
+
+.footer .footer_ul{
+	display: flex;
+    margin: 0px auto;
+}
+.footer .footer_ul li{
+	flex: 1;
+}
+.footer .footer_ul li p.title{
+	color: #FFFFFF;
+	padding:20px 0;
+}
+.footer .footer_ul li .about_partner{
+	margin-bottom: 10px;	
+	color: #999;
+}
+.footer .footer_ul li .about_partner a{
+    color: #999;
+}
+
+.footer .wx-ewm img{
+    width: 125px;
+    height: 125px;
+}
+.footer .wx-ewm p{
+   text-align: center;
+}
+.footer .banquan {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #272b2e;
+    height: 34px;
+    line-height: 34px;
+    border-top: 1px solid #333;
+}
+.footer .banquan .info {
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
